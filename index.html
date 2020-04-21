@@ -96,41 +96,200 @@
        float: none;
        line-height: 48px;
      }
+
+     .parallax-container {
+       height: auto;
+     }
+
+     .parallax-container h2 {
+       margin: 7%;
+     }
+
+     .parallax-container .parallax {
+       z-index: 0;
+     }
+     .welcome{
+       z-index: 1;
+       position: relative;
+     }
+     #nav-mobile li a:not(#logo-container):active{border: 3px solid red;}
    </style>
  </head>
 
  <body>
    <!-- Navbar goes here -->
    <header>
-     <ul id="nav-mobile" class="sidenav sidenav-fixed side-header center" style="transform: translateX(0px);">
+     <ul id="nav-mobile" class="sidenav sidenav-fixed side-header center">
        <li class="logo">
          <a id="logo-container" href="/" class="brand-logo">
            <img id="front-page-logo" alt="Dog Racers Moto Grupo" class="brand-logo responsive-img"
              src="image/logo-site-preparado.png">
          </a>
        </li>
-       <li class="bold"><a href="about.html" class="waves-effect waves-teal">About</a></li>
+       <li class="bold"><a href="/" class="waves-effect waves-red">Home</a></li>
      </ul>
    </header>
 
    <!-- Page Layout here -->
    <main>
+
+     <!-- Slider  -->
+     <div class="parallax-container">
+       <div class="parallax">
+         <img src="image/modelo-banner-dogs.jpg"></div>
+       <div class="center-align welcome">
+         <h2>
+           <img src="image/bem-vindo.png">
+         </h2>
+       </div>
+
+     </div>
+
+
+
      <div class="row">
-       <div id="main" class="col s12 m9 l10">
+       <div id="main" class="col s12">
          <!-- Page content  -->
-         <p>Slider full width</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit neque, dapibus sed porttitor ac,
+           aliquam ut tellus. Suspendisse ac lorem a leo ornare sodales in eu lorem. Donec dapibus velit ac consectetur
+           dapibus. Proin feugiat mi odio, id rhoncus orci rutrum non. Ut tellus risus, euismod convallis ligula vitae,
+           auctor suscipit mi. Suspendisse nec elit ullamcorper, dictum nunc at, tristique ligula. Mauris consectetur
+           urna vitae ipsum mollis aliquet.
+
+           Mauris nulla mi, placerat sit amet ornare luctus, pharetra sed justo. Orci varius natoque penatibus et magnis
+           dis parturient montes, nascetur ridiculus mus. Praesent elementum dictum nisi, sit amet sagittis quam
+           efficitur eleifend. Sed ac vestibulum mauris. Nam ex lectus, volutpat et sollicitudin in, consequat id massa.
+           Aliquam aliquam sapien ut laoreet consequat. Pellentesque placerat rutrum urna, in imperdiet sem interdum et.
+
+           Duis vulputate dolor id lorem bibendum fringilla. Phasellus dictum sem urna, vel ultricies urna laoreet a.
+           Morbi sed ante eleifend, tempus odio quis, aliquet magna. Vivamus tellus metus, eleifend non ante quis,
+           consequat malesuada nisl. Nulla vitae finibus nibh. Ut luctus eu eros quis mollis. Aliquam in purus ipsum.
+           Morbi ut ex vitae nunc aliquet porttitor in sed dolor. Curabitur accumsan dolor at augue consectetur, pretium
+           gravida libero dignissim. Nam malesuada nec enim non pulvinar. Curabitur vel laoreet ipsum. Suspendisse eget
+           tortor et mauris dignissim iaculis convallis non purus. Fusce nisl dui, iaculis et tristique vitae, egestas
+           ac odio. Maecenas pellentesque iaculis sapien, sed viverra felis. Nulla fringilla nisi ac nunc fermentum
+           dictum.
+
+           Sed aliquam lacinia ex, id elementum mauris finibus eget. Curabitur gravida eget odio et facilisis. Vivamus
+           consequat risus vitae venenatis vulputate. Duis rhoncus at nunc at aliquam. Donec quis molestie orci.
+           Vestibulum hendrerit metus sit amet iaculis aliquam. Maecenas vel libero ut purus bibendum gravida ut ut
+           nisl. Duis facilisis eros vel quam efficitur, ut tempus erat interdum.
+
+           Donec malesuada tempus nunc nec gravida. Sed sit amet sapien nulla. Integer malesuada lacinia nibh, tincidunt
+           vestibulum augue fermentum eu. Donec eget consequat justo, in ultricies elit. Nunc eget mi nulla. Cras quis
+           nibh sed turpis condimentum auctor. Donec lacus urna, rhoncus eget felis at, tempus venenatis leo. Vestibulum
+           ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean fermentum sit amet nisl
+           at pretium. Donec porta, felis eget tincidunt tincidunt, augue dolor lobortis urna, finibus fermentum quam
+           leo quis orci. Fusce nisi ante, iaculis bibendum viverra ut, eleifend eu metus. Nam sollicitudin urna ut
+           sagittis suscipit.</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit neque, dapibus sed porttitor ac,
+            aliquam ut tellus. Suspendisse ac lorem a leo ornare sodales in eu lorem. Donec dapibus velit ac consectetur
+            dapibus. Proin feugiat mi odio, id rhoncus orci rutrum non. Ut tellus risus, euismod convallis ligula vitae,
+            auctor suscipit mi. Suspendisse nec elit ullamcorper, dictum nunc at, tristique ligula. Mauris consectetur
+            urna vitae ipsum mollis aliquet.
+ 
+            Mauris nulla mi, placerat sit amet ornare luctus, pharetra sed justo. Orci varius natoque penatibus et magnis
+            dis parturient montes, nascetur ridiculus mus. Praesent elementum dictum nisi, sit amet sagittis quam
+            efficitur eleifend. Sed ac vestibulum mauris. Nam ex lectus, volutpat et sollicitudin in, consequat id massa.
+            Aliquam aliquam sapien ut laoreet consequat. Pellentesque placerat rutrum urna, in imperdiet sem interdum et.
+ 
+            Duis vulputate dolor id lorem bibendum fringilla. Phasellus dictum sem urna, vel ultricies urna laoreet a.
+            Morbi sed ante eleifend, tempus odio quis, aliquet magna. Vivamus tellus metus, eleifend non ante quis,
+            consequat malesuada nisl. Nulla vitae finibus nibh. Ut luctus eu eros quis mollis. Aliquam in purus ipsum.
+            Morbi ut ex vitae nunc aliquet porttitor in sed dolor. Curabitur accumsan dolor at augue consectetur, pretium
+            gravida libero dignissim. Nam malesuada nec enim non pulvinar. Curabitur vel laoreet ipsum. Suspendisse eget
+            tortor et mauris dignissim iaculis convallis non purus. Fusce nisl dui, iaculis et tristique vitae, egestas
+            ac odio. Maecenas pellentesque iaculis sapien, sed viverra felis. Nulla fringilla nisi ac nunc fermentum
+            dictum.
+ 
+            Sed aliquam lacinia ex, id elementum mauris finibus eget. Curabitur gravida eget odio et facilisis. Vivamus
+            consequat risus vitae venenatis vulputate. Duis rhoncus at nunc at aliquam. Donec quis molestie orci.
+            Vestibulum hendrerit metus sit amet iaculis aliquam. Maecenas vel libero ut purus bibendum gravida ut ut
+            nisl. Duis facilisis eros vel quam efficitur, ut tempus erat interdum.
+ 
+            Donec malesuada tempus nunc nec gravida. Sed sit amet sapien nulla. Integer malesuada lacinia nibh, tincidunt
+            vestibulum augue fermentum eu. Donec eget consequat justo, in ultricies elit. Nunc eget mi nulla. Cras quis
+            nibh sed turpis condimentum auctor. Donec lacus urna, rhoncus eget felis at, tempus venenatis leo. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean fermentum sit amet nisl
+            at pretium. Donec porta, felis eget tincidunt tincidunt, augue dolor lobortis urna, finibus fermentum quam
+            leo quis orci. Fusce nisi ante, iaculis bibendum viverra ut, eleifend eu metus. Nam sollicitudin urna ut
+            sagittis suscipit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit neque, dapibus sed porttitor ac,
+              aliquam ut tellus. Suspendisse ac lorem a leo ornare sodales in eu lorem. Donec dapibus velit ac consectetur
+              dapibus. Proin feugiat mi odio, id rhoncus orci rutrum non. Ut tellus risus, euismod convallis ligula vitae,
+              auctor suscipit mi. Suspendisse nec elit ullamcorper, dictum nunc at, tristique ligula. Mauris consectetur
+              urna vitae ipsum mollis aliquet.
+   
+              Mauris nulla mi, placerat sit amet ornare luctus, pharetra sed justo. Orci varius natoque penatibus et magnis
+              dis parturient montes, nascetur ridiculus mus. Praesent elementum dictum nisi, sit amet sagittis quam
+              efficitur eleifend. Sed ac vestibulum mauris. Nam ex lectus, volutpat et sollicitudin in, consequat id massa.
+              Aliquam aliquam sapien ut laoreet consequat. Pellentesque placerat rutrum urna, in imperdiet sem interdum et.
+   
+              Duis vulputate dolor id lorem bibendum fringilla. Phasellus dictum sem urna, vel ultricies urna laoreet a.
+              Morbi sed ante eleifend, tempus odio quis, aliquet magna. Vivamus tellus metus, eleifend non ante quis,
+              consequat malesuada nisl. Nulla vitae finibus nibh. Ut luctus eu eros quis mollis. Aliquam in purus ipsum.
+              Morbi ut ex vitae nunc aliquet porttitor in sed dolor. Curabitur accumsan dolor at augue consectetur, pretium
+              gravida libero dignissim. Nam malesuada nec enim non pulvinar. Curabitur vel laoreet ipsum. Suspendisse eget
+              tortor et mauris dignissim iaculis convallis non purus. Fusce nisl dui, iaculis et tristique vitae, egestas
+              ac odio. Maecenas pellentesque iaculis sapien, sed viverra felis. Nulla fringilla nisi ac nunc fermentum
+              dictum.
+   
+              Sed aliquam lacinia ex, id elementum mauris finibus eget. Curabitur gravida eget odio et facilisis. Vivamus
+              consequat risus vitae venenatis vulputate. Duis rhoncus at nunc at aliquam. Donec quis molestie orci.
+              Vestibulum hendrerit metus sit amet iaculis aliquam. Maecenas vel libero ut purus bibendum gravida ut ut
+              nisl. Duis facilisis eros vel quam efficitur, ut tempus erat interdum.
+   
+              Donec malesuada tempus nunc nec gravida. Sed sit amet sapien nulla. Integer malesuada lacinia nibh, tincidunt
+              vestibulum augue fermentum eu. Donec eget consequat justo, in ultricies elit. Nunc eget mi nulla. Cras quis
+              nibh sed turpis condimentum auctor. Donec lacus urna, rhoncus eget felis at, tempus venenatis leo. Vestibulum
+              ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean fermentum sit amet nisl
+              at pretium. Donec porta, felis eget tincidunt tincidunt, augue dolor lobortis urna, finibus fermentum quam
+              leo quis orci. Fusce nisi ante, iaculis bibendum viverra ut, eleifend eu metus. Nam sollicitudin urna ut
+              sagittis suscipit.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit neque, dapibus sed porttitor ac,
+                aliquam ut tellus. Suspendisse ac lorem a leo ornare sodales in eu lorem. Donec dapibus velit ac consectetur
+                dapibus. Proin feugiat mi odio, id rhoncus orci rutrum non. Ut tellus risus, euismod convallis ligula vitae,
+                auctor suscipit mi. Suspendisse nec elit ullamcorper, dictum nunc at, tristique ligula. Mauris consectetur
+                urna vitae ipsum mollis aliquet.
+     
+                Mauris nulla mi, placerat sit amet ornare luctus, pharetra sed justo. Orci varius natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus mus. Praesent elementum dictum nisi, sit amet sagittis quam
+                efficitur eleifend. Sed ac vestibulum mauris. Nam ex lectus, volutpat et sollicitudin in, consequat id massa.
+                Aliquam aliquam sapien ut laoreet consequat. Pellentesque placerat rutrum urna, in imperdiet sem interdum et.
+     
+                Duis vulputate dolor id lorem bibendum fringilla. Phasellus dictum sem urna, vel ultricies urna laoreet a.
+                Morbi sed ante eleifend, tempus odio quis, aliquet magna. Vivamus tellus metus, eleifend non ante quis,
+                consequat malesuada nisl. Nulla vitae finibus nibh. Ut luctus eu eros quis mollis. Aliquam in purus ipsum.
+                Morbi ut ex vitae nunc aliquet porttitor in sed dolor. Curabitur accumsan dolor at augue consectetur, pretium
+                gravida libero dignissim. Nam malesuada nec enim non pulvinar. Curabitur vel laoreet ipsum. Suspendisse eget
+                tortor et mauris dignissim iaculis convallis non purus. Fusce nisl dui, iaculis et tristique vitae, egestas
+                ac odio. Maecenas pellentesque iaculis sapien, sed viverra felis. Nulla fringilla nisi ac nunc fermentum
+                dictum.
+     
+                Sed aliquam lacinia ex, id elementum mauris finibus eget. Curabitur gravida eget odio et facilisis. Vivamus
+                consequat risus vitae venenatis vulputate. Duis rhoncus at nunc at aliquam. Donec quis molestie orci.
+                Vestibulum hendrerit metus sit amet iaculis aliquam. Maecenas vel libero ut purus bibendum gravida ut ut
+                nisl. Duis facilisis eros vel quam efficitur, ut tempus erat interdum.
+     
+                Donec malesuada tempus nunc nec gravida. Sed sit amet sapien nulla. Integer malesuada lacinia nibh, tincidunt
+                vestibulum augue fermentum eu. Donec eget consequat justo, in ultricies elit. Nunc eget mi nulla. Cras quis
+                nibh sed turpis condimentum auctor. Donec lacus urna, rhoncus eget felis at, tempus venenatis leo. Vestibulum
+                ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean fermentum sit amet nisl
+                at pretium. Donec porta, felis eget tincidunt tincidunt, augue dolor lobortis urna, finibus fermentum quam
+                leo quis orci. Fusce nisi ante, iaculis bibendum viverra ut, eleifend eu metus. Nam sollicitudin urna ut
+                sagittis suscipit.</p>
        </div>
      </div>
-     <div class="row">
-      <div id="main" class="col s12 m9 l10">
-        <!-- Page content  -->
-        <p>Conteúdo da home</p>
-      </div>
-    </div>
    </main>
 
    <!--JavaScript at end of body for optimized loading-->
    <script type="text/javascript" src="js/materialize.min.js"></script>
+   <script>
+     document.addEventListener('DOMContentLoaded', function () {
+       var elems = document.querySelectorAll('.parallax');
+       var instances = M.Parallax.init(elems,{responsiveThreshold:100});
+     });
+   </script>
  </body>
 
  </html>
