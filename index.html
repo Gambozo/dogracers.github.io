@@ -30,7 +30,9 @@
      }
      gtag('js', new Date());
 
-     gtag('config', 'UA-154366414-1', { 'optimize_id': 'GTM-WKMM3GJ'});
+     gtag('config', 'UA-154366414-1', {
+       'optimize_id': 'GTM-WKMM3GJ'
+     });
    </script>
    <!-- Meta tags and Title -->
    <meta charset="UTF-8">
@@ -91,6 +93,7 @@
        background: #292c30;
      }
 
+
      header,
      main,
      footer {
@@ -147,24 +150,41 @@
      .parallax-container h2 {
        margin: 12% 0;
      }
+
+     @media only screen and (max-width: 992px) {
+       .sidenav.sidenav-fixed {
+         -webkit-transform: translateX(-105%);
+         transform: translateX(-105%);
+       }
+
+       header,
+       main,
+       footer {
+         padding-left: 0;
+       }
+     }
    </style>
  </head>
 
  <body>
-   <!-- Google Tag Manager (noscript) -->
-   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9DBXBZ" height="0" width="0"
-       style="display:none;visibility:hidden"></iframe></noscript>
-   <!-- End Google Tag Manager (noscript) -->
-   <!-- Navbar goes here -->
-   <ul id="slide-out" class="sidenav sidenav-fixed center">
-     <li class="logo">
-       <a id="logo-container" href="/" class="brand-logo">
-         <img id="front-page-logo" alt="Dog Racers Moto Grupo" class="brand-logo responsive-img"
-           src="image/logo-site-preparado.png">
-       </a>
-     </li>
-     <li class="bold"><a href="/" class="waves-effect waves-red">Home</a></li>
-   </ul>
+   <header>
+     <!-- Google Tag Manager (noscript) -->
+     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9DBXBZ" height="0" width="0"
+         style="display:none;visibility:hidden"></iframe></noscript>
+     <!-- End Google Tag Manager (noscript) -->
+     <!-- Sidenav goes here -->
+     <div class="container"><a href="#" data-target="nav-mobile"
+         class="top-nav sidenav-trigger full hide-on-large-only"><i class="material-icons">menu</i></a></div>
+     <ul class="sidenav sidenav-fixed center">
+       <li class="logo">
+         <a id="logo-container" href="/" class="brand-logo">
+           <img id="front-page-logo" alt="Dog Racers Moto Grupo" class="brand-logo responsive-img"
+             src="image/logo-site-preparado.png">
+         </a>
+       </li>
+       <li class="bold"><a href="/" class="waves-effect waves-red">Home</a></li>
+     </ul>
+   </header>
    <!-- Page Layout here -->
    <main>
      <!-- Slider  -->
@@ -184,135 +204,50 @@
 
      <div class="row">
        <div id="main" class="col s12">
-         <!-- Page content  -->
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit neque, dapibus sed porttitor ac,
-           aliquam ut tellus. Suspendisse ac lorem a leo ornare sodales in eu lorem. Donec dapibus velit ac consectetur
-           dapibus. Proin feugiat mi odio, id rhoncus orci rutrum non. Ut tellus risus, euismod convallis ligula vitae,
-           auctor suscipit mi. Suspendisse nec elit ullamcorper, dictum nunc at, tristique ligula. Mauris consectetur
-           urna vitae ipsum mollis aliquet.
+         <div class="container">
+           <!-- Page content  -->
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit neque, dapibus sed porttitor ac,
+             aliquam ut tellus. Suspendisse ac lorem a leo ornare sodales in eu lorem. Donec dapibus velit ac
+             consectetur
+             dapibus. Proin feugiat mi odio, id rhoncus orci rutrum non. Ut tellus risus, euismod convallis ligula
+             vitae,
+             auctor suscipit mi. Suspendisse nec elit ullamcorper, dictum nunc at, tristique ligula. Mauris consectetur
+             urna vitae ipsum mollis aliquet.
 
-           Mauris nulla mi, placerat sit amet ornare luctus, pharetra sed justo. Orci varius natoque penatibus et magnis
-           dis parturient montes, nascetur ridiculus mus. Praesent elementum dictum nisi, sit amet sagittis quam
-           efficitur eleifend. Sed ac vestibulum mauris. Nam ex lectus, volutpat et sollicitudin in, consequat id massa.
-           Aliquam aliquam sapien ut laoreet consequat. Pellentesque placerat rutrum urna, in imperdiet sem interdum et.
+             Mauris nulla mi, placerat sit amet ornare luctus, pharetra sed justo. Orci varius natoque penatibus et
+             magnis
+             dis parturient montes, nascetur ridiculus mus. Praesent elementum dictum nisi, sit amet sagittis quam
+             efficitur eleifend. Sed ac vestibulum mauris. Nam ex lectus, volutpat et sollicitudin in, consequat id
+             massa.
+             Aliquam aliquam sapien ut laoreet consequat. Pellentesque placerat rutrum urna, in imperdiet sem interdum
+             et.
 
-           Duis vulputate dolor id lorem bibendum fringilla. Phasellus dictum sem urna, vel ultricies urna laoreet a.
-           Morbi sed ante eleifend, tempus odio quis, aliquet magna. Vivamus tellus metus, eleifend non ante quis,
-           consequat malesuada nisl. Nulla vitae finibus nibh. Ut luctus eu eros quis mollis. Aliquam in purus ipsum.
-           Morbi ut ex vitae nunc aliquet porttitor in sed dolor. Curabitur accumsan dolor at augue consectetur, pretium
-           gravida libero dignissim. Nam malesuada nec enim non pulvinar. Curabitur vel laoreet ipsum. Suspendisse eget
-           tortor et mauris dignissim iaculis convallis non purus. Fusce nisl dui, iaculis et tristique vitae, egestas
-           ac odio. Maecenas pellentesque iaculis sapien, sed viverra felis. Nulla fringilla nisi ac nunc fermentum
-           dictum.
+             Duis vulputate dolor id lorem bibendum fringilla. Phasellus dictum sem urna, vel ultricies urna laoreet a.
+             Morbi sed ante eleifend, tempus odio quis, aliquet magna. Vivamus tellus metus, eleifend non ante quis,
+             consequat malesuada nisl. Nulla vitae finibus nibh. Ut luctus eu eros quis mollis. Aliquam in purus ipsum.
+             Morbi ut ex vitae nunc aliquet porttitor in sed dolor. Curabitur accumsan dolor at augue consectetur,
+             pretium
+             gravida libero dignissim. Nam malesuada nec enim non pulvinar. Curabitur vel laoreet ipsum. Suspendisse
+             eget
+             tortor et mauris dignissim iaculis convallis non purus. Fusce nisl dui, iaculis et tristique vitae, egestas
+             ac odio. Maecenas pellentesque iaculis sapien, sed viverra felis. Nulla fringilla nisi ac nunc fermentum
+             dictum.
 
-           Sed aliquam lacinia ex, id elementum mauris finibus eget. Curabitur gravida eget odio et facilisis. Vivamus
-           consequat risus vitae venenatis vulputate. Duis rhoncus at nunc at aliquam. Donec quis molestie orci.
-           Vestibulum hendrerit metus sit amet iaculis aliquam. Maecenas vel libero ut purus bibendum gravida ut ut
-           nisl. Duis facilisis eros vel quam efficitur, ut tempus erat interdum.
+             Sed aliquam lacinia ex, id elementum mauris finibus eget. Curabitur gravida eget odio et facilisis. Vivamus
+             consequat risus vitae venenatis vulputate. Duis rhoncus at nunc at aliquam. Donec quis molestie orci.
+             Vestibulum hendrerit metus sit amet iaculis aliquam. Maecenas vel libero ut purus bibendum gravida ut ut
+             nisl. Duis facilisis eros vel quam efficitur, ut tempus erat interdum.
 
-           Donec malesuada tempus nunc nec gravida. Sed sit amet sapien nulla. Integer malesuada lacinia nibh, tincidunt
-           vestibulum augue fermentum eu. Donec eget consequat justo, in ultricies elit. Nunc eget mi nulla. Cras quis
-           nibh sed turpis condimentum auctor. Donec lacus urna, rhoncus eget felis at, tempus venenatis leo. Vestibulum
-           ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean fermentum sit amet nisl
-           at pretium. Donec porta, felis eget tincidunt tincidunt, augue dolor lobortis urna, finibus fermentum quam
-           leo quis orci. Fusce nisi ante, iaculis bibendum viverra ut, eleifend eu metus. Nam sollicitudin urna ut
-           sagittis suscipit.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit neque, dapibus sed porttitor ac,
-           aliquam ut tellus. Suspendisse ac lorem a leo ornare sodales in eu lorem. Donec dapibus velit ac consectetur
-           dapibus. Proin feugiat mi odio, id rhoncus orci rutrum non. Ut tellus risus, euismod convallis ligula vitae,
-           auctor suscipit mi. Suspendisse nec elit ullamcorper, dictum nunc at, tristique ligula. Mauris consectetur
-           urna vitae ipsum mollis aliquet.
-
-           Mauris nulla mi, placerat sit amet ornare luctus, pharetra sed justo. Orci varius natoque penatibus et magnis
-           dis parturient montes, nascetur ridiculus mus. Praesent elementum dictum nisi, sit amet sagittis quam
-           efficitur eleifend. Sed ac vestibulum mauris. Nam ex lectus, volutpat et sollicitudin in, consequat id massa.
-           Aliquam aliquam sapien ut laoreet consequat. Pellentesque placerat rutrum urna, in imperdiet sem interdum et.
-
-           Duis vulputate dolor id lorem bibendum fringilla. Phasellus dictum sem urna, vel ultricies urna laoreet a.
-           Morbi sed ante eleifend, tempus odio quis, aliquet magna. Vivamus tellus metus, eleifend non ante quis,
-           consequat malesuada nisl. Nulla vitae finibus nibh. Ut luctus eu eros quis mollis. Aliquam in purus ipsum.
-           Morbi ut ex vitae nunc aliquet porttitor in sed dolor. Curabitur accumsan dolor at augue consectetur, pretium
-           gravida libero dignissim. Nam malesuada nec enim non pulvinar. Curabitur vel laoreet ipsum. Suspendisse eget
-           tortor et mauris dignissim iaculis convallis non purus. Fusce nisl dui, iaculis et tristique vitae, egestas
-           ac odio. Maecenas pellentesque iaculis sapien, sed viverra felis. Nulla fringilla nisi ac nunc fermentum
-           dictum.
-
-           Sed aliquam lacinia ex, id elementum mauris finibus eget. Curabitur gravida eget odio et facilisis. Vivamus
-           consequat risus vitae venenatis vulputate. Duis rhoncus at nunc at aliquam. Donec quis molestie orci.
-           Vestibulum hendrerit metus sit amet iaculis aliquam. Maecenas vel libero ut purus bibendum gravida ut ut
-           nisl. Duis facilisis eros vel quam efficitur, ut tempus erat interdum.
-
-           Donec malesuada tempus nunc nec gravida. Sed sit amet sapien nulla. Integer malesuada lacinia nibh, tincidunt
-           vestibulum augue fermentum eu. Donec eget consequat justo, in ultricies elit. Nunc eget mi nulla. Cras quis
-           nibh sed turpis condimentum auctor. Donec lacus urna, rhoncus eget felis at, tempus venenatis leo. Vestibulum
-           ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean fermentum sit amet nisl
-           at pretium. Donec porta, felis eget tincidunt tincidunt, augue dolor lobortis urna, finibus fermentum quam
-           leo quis orci. Fusce nisi ante, iaculis bibendum viverra ut, eleifend eu metus. Nam sollicitudin urna ut
-           sagittis suscipit.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit neque, dapibus sed porttitor ac,
-           aliquam ut tellus. Suspendisse ac lorem a leo ornare sodales in eu lorem. Donec dapibus velit ac consectetur
-           dapibus. Proin feugiat mi odio, id rhoncus orci rutrum non. Ut tellus risus, euismod convallis ligula vitae,
-           auctor suscipit mi. Suspendisse nec elit ullamcorper, dictum nunc at, tristique ligula. Mauris consectetur
-           urna vitae ipsum mollis aliquet.
-
-           Mauris nulla mi, placerat sit amet ornare luctus, pharetra sed justo. Orci varius natoque penatibus et magnis
-           dis parturient montes, nascetur ridiculus mus. Praesent elementum dictum nisi, sit amet sagittis quam
-           efficitur eleifend. Sed ac vestibulum mauris. Nam ex lectus, volutpat et sollicitudin in, consequat id massa.
-           Aliquam aliquam sapien ut laoreet consequat. Pellentesque placerat rutrum urna, in imperdiet sem interdum et.
-
-           Duis vulputate dolor id lorem bibendum fringilla. Phasellus dictum sem urna, vel ultricies urna laoreet a.
-           Morbi sed ante eleifend, tempus odio quis, aliquet magna. Vivamus tellus metus, eleifend non ante quis,
-           consequat malesuada nisl. Nulla vitae finibus nibh. Ut luctus eu eros quis mollis. Aliquam in purus ipsum.
-           Morbi ut ex vitae nunc aliquet porttitor in sed dolor. Curabitur accumsan dolor at augue consectetur, pretium
-           gravida libero dignissim. Nam malesuada nec enim non pulvinar. Curabitur vel laoreet ipsum. Suspendisse eget
-           tortor et mauris dignissim iaculis convallis non purus. Fusce nisl dui, iaculis et tristique vitae, egestas
-           ac odio. Maecenas pellentesque iaculis sapien, sed viverra felis. Nulla fringilla nisi ac nunc fermentum
-           dictum.
-
-           Sed aliquam lacinia ex, id elementum mauris finibus eget. Curabitur gravida eget odio et facilisis. Vivamus
-           consequat risus vitae venenatis vulputate. Duis rhoncus at nunc at aliquam. Donec quis molestie orci.
-           Vestibulum hendrerit metus sit amet iaculis aliquam. Maecenas vel libero ut purus bibendum gravida ut ut
-           nisl. Duis facilisis eros vel quam efficitur, ut tempus erat interdum.
-
-           Donec malesuada tempus nunc nec gravida. Sed sit amet sapien nulla. Integer malesuada lacinia nibh, tincidunt
-           vestibulum augue fermentum eu. Donec eget consequat justo, in ultricies elit. Nunc eget mi nulla. Cras quis
-           nibh sed turpis condimentum auctor. Donec lacus urna, rhoncus eget felis at, tempus venenatis leo. Vestibulum
-           ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean fermentum sit amet nisl
-           at pretium. Donec porta, felis eget tincidunt tincidunt, augue dolor lobortis urna, finibus fermentum quam
-           leo quis orci. Fusce nisi ante, iaculis bibendum viverra ut, eleifend eu metus. Nam sollicitudin urna ut
-           sagittis suscipit.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit neque, dapibus sed porttitor ac,
-           aliquam ut tellus. Suspendisse ac lorem a leo ornare sodales in eu lorem. Donec dapibus velit ac consectetur
-           dapibus. Proin feugiat mi odio, id rhoncus orci rutrum non. Ut tellus risus, euismod convallis ligula vitae,
-           auctor suscipit mi. Suspendisse nec elit ullamcorper, dictum nunc at, tristique ligula. Mauris consectetur
-           urna vitae ipsum mollis aliquet.
-
-           Mauris nulla mi, placerat sit amet ornare luctus, pharetra sed justo. Orci varius natoque penatibus et magnis
-           dis parturient montes, nascetur ridiculus mus. Praesent elementum dictum nisi, sit amet sagittis quam
-           efficitur eleifend. Sed ac vestibulum mauris. Nam ex lectus, volutpat et sollicitudin in, consequat id massa.
-           Aliquam aliquam sapien ut laoreet consequat. Pellentesque placerat rutrum urna, in imperdiet sem interdum et.
-
-           Duis vulputate dolor id lorem bibendum fringilla. Phasellus dictum sem urna, vel ultricies urna laoreet a.
-           Morbi sed ante eleifend, tempus odio quis, aliquet magna. Vivamus tellus metus, eleifend non ante quis,
-           consequat malesuada nisl. Nulla vitae finibus nibh. Ut luctus eu eros quis mollis. Aliquam in purus ipsum.
-           Morbi ut ex vitae nunc aliquet porttitor in sed dolor. Curabitur accumsan dolor at augue consectetur, pretium
-           gravida libero dignissim. Nam malesuada nec enim non pulvinar. Curabitur vel laoreet ipsum. Suspendisse eget
-           tortor et mauris dignissim iaculis convallis non purus. Fusce nisl dui, iaculis et tristique vitae, egestas
-           ac odio. Maecenas pellentesque iaculis sapien, sed viverra felis. Nulla fringilla nisi ac nunc fermentum
-           dictum.
-
-           Sed aliquam lacinia ex, id elementum mauris finibus eget. Curabitur gravida eget odio et facilisis. Vivamus
-           consequat risus vitae venenatis vulputate. Duis rhoncus at nunc at aliquam. Donec quis molestie orci.
-           Vestibulum hendrerit metus sit amet iaculis aliquam. Maecenas vel libero ut purus bibendum gravida ut ut
-           nisl. Duis facilisis eros vel quam efficitur, ut tempus erat interdum.
-
-           Donec malesuada tempus nunc nec gravida. Sed sit amet sapien nulla. Integer malesuada lacinia nibh, tincidunt
-           vestibulum augue fermentum eu. Donec eget consequat justo, in ultricies elit. Nunc eget mi nulla. Cras quis
-           nibh sed turpis condimentum auctor. Donec lacus urna, rhoncus eget felis at, tempus venenatis leo. Vestibulum
-           ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean fermentum sit amet nisl
-           at pretium. Donec porta, felis eget tincidunt tincidunt, augue dolor lobortis urna, finibus fermentum quam
-           leo quis orci. Fusce nisi ante, iaculis bibendum viverra ut, eleifend eu metus. Nam sollicitudin urna ut
-           sagittis suscipit.</p>
+             Donec malesuada tempus nunc nec gravida. Sed sit amet sapien nulla. Integer malesuada lacinia nibh,
+             tincidunt
+             vestibulum augue fermentum eu. Donec eget consequat justo, in ultricies elit. Nunc eget mi nulla. Cras quis
+             nibh sed turpis condimentum auctor. Donec lacus urna, rhoncus eget felis at, tempus venenatis leo.
+             Vestibulum
+             ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean fermentum sit amet nisl
+             at pretium. Donec porta, felis eget tincidunt tincidunt, augue dolor lobortis urna, finibus fermentum quam
+             leo quis orci. Fusce nisi ante, iaculis bibendum viverra ut, eleifend eu metus. Nam sollicitudin urna ut
+             sagittis suscipit.</p>
+         </div>
        </div>
      </div>
    </main>
