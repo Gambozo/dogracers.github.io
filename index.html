@@ -87,6 +87,12 @@
        font-size: 2.2rem;
      }
 
+     h4 {
+       font-size: 1.2rem;
+       color: #ff0000;
+       margin: 0;
+     }
+
      .sidenav {
        background: #292c30;
      }
@@ -149,6 +155,61 @@
        margin: 12% 0;
      }
 
+     .fusion-sep-clear {
+       clear: both;
+       display: block;
+       height: 1px;
+       font-size: 0;
+       line-height: 0;
+       width: 100%;
+       overflow: hidden;
+     }
+
+     .fusion-sep-clear {
+       clear: both;
+       display: block;
+       height: 1px;
+       font-size: 0;
+       line-height: 0;
+       width: 100%;
+       overflow: hidden;
+     }
+
+     .fusion-separator {
+       border-color: #f10000;
+       border-top-width: 1px;
+       margin-top: 20px;
+       margin-bottom: 40px;
+       width: 100%;
+       max-width: 170px;
+       clear: both;
+       position: relative;
+       z-index: 11;
+     }
+
+     .fusion-separator.sep-solid {
+       border-bottom-style: solid;
+       border-top-style: solid;
+     }
+
+     .fusion-separator.sep-single {
+       height: auto;
+       border-top-width: 1px;
+       border-bottom-width: 0;
+     }
+
+     p {
+       margin-top: 0;
+       margin-bottom: 20px;
+       line-height: 30px;
+     }
+
+     @media only screen and (min-width: 993px) {
+       .container {
+         width: 80%;
+       }
+     }
+
      @media only screen and (max-width: 992px) {
        .sidenav.sidenav-fixed {
          -webkit-transform: translateX(-105%);
@@ -202,11 +263,28 @@
 
      <div class="row">
        <div id="main" class="col s12">
-         <div class="">
+         <div class="container">
            <!-- Page content  -->
            <div class="row">
-             <div class="col s12 l8"><h2>Um novo conceito de Moto Grupo</h2></div>
+             <div class="col s12 l8">
+               <h2>Um novo conceito de Moto Grupo</h2>
+               <h4>UNINDO AMIGOS, FAMÍLIAS E MOTOCICLISTAS</h4>
+               <div class="fusion-sep-clear"></div>
+               <div class="fusion-separator sep-single sep-solid"></div>
+               <div class="row valign-wrapper">
+                 <div class="col s12 l6"><img class="responsive-img" src="image/unindo_1.jpg"></div>
+                 <div class="col s12 l6"><img class="responsive-img" src="image/unindo_2.jpg"></div>
+               </div>
+               <p>Ah, o motociclismo!<br>
+                 Cilindrada? Não importa.<br>
+                 O que importa realmente é a lealdade, honra e amizade!<br>
+                 O Dog Racers entende que participar de um moto grupo deva ser mais do que ter uma motocicleta e um
+                 colete
+                 com brasão e rodar. Ir além é necessário e almejar a liberdade depende diretamente do respeito e
+                 solidariedade com o irmão, seja ele motociclista ou não.</p>
+             </div>
              <div class="col s12 l4">1</div>
+
            </div>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elit neque, dapibus sed porttitor ac,
              aliquam ut tellus. Suspendisse ac lorem a leo ornare sodales in eu lorem. Donec dapibus velit ac
